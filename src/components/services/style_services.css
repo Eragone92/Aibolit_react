@@ -1,0 +1,119 @@
+
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: auto; */
+    box-sizing: border-box;
+    /* min-height: 600px; */
+    height: auto;
+    align-items: center;
+}
+
+.services__serviceCard_one-img {
+    background-image: url("../../Images/surgery.svg");
+}
+
+.image {
+    background-position: center center;
+    width: 132px;
+    height: 110px;
+    background-repeat: no-repeat;
+    align-self: flex-end;
+}
+
+.services__serviceCard-text {
+    font-size: 1.2em;
+    position: relative;
+    line-height: 1.5em;
+}
+
+.service {
+    font-size: 1em;
+    position: absolute;
+    top: 75%;
+    box-sizing: border-box;
+
+    
+}
+
+.services__serviceCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 320px;
+    border-radius: 1.1em;
+    margin: 10px;
+    background-color: #FFFEFE;
+    position: relative;
+    border: 1px solid grey;
+    padding: 0 10px 0 10px;
+    height: 165px;
+    line-height: 0%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    height: 220px;
+}
+
+.services__serviceCard_two-img {
+    background-image: url("../../Images/hirurg.svg");
+}
+
+.services__serviceCard_three-img {
+    background-image: url("../../Images/Neurology.svg");
+}
+
+.services__serviceCard_four-img {
+    background-image: url("../../Images/Orthopedics.svg");
+}
+
+.services__serviceCard_five-img {
+    background-image: url("../../Images/dermatolog.svg");
+}
+
+.services__serviceCard_six-img {
+    background-image: url("../../Images/cat.svg");
+}
+
+.services__serviceCard_seven-img {
+    background-image: url("../../Images/heart.svg");
+}
+
+.services__serviceCard_eight-img {
+    background-image: url("../../Images/canin.svg");
+}
+
+.services__serviceCard_nine-img {
+    background-image: url("../../Images/reproduct.svg");
+}
+
+.services__serviceCard_ten-img {
+    background-image: url("../../Images/visual.svg");
+}
+
+.services__serviceCard_eleven-img {
+    background-image: url("../../Images/Vect.svg");
+}
+
+.services__serviceCard_twelve-img {
+    background-image: url("../../Images/ukol.svg");
+}
+
+.services__serviceCard_sixteen-img {
+    background-image: url("../../Images/grooming.svg");
+}
+
+.services__serviceCard_fifteen-img {
+    background-image: url("../../Images/pilula.svg");
+}
+
+.services__serviceCard_fourteen-img {
+    background-image: url("../../Images/slamandr.svg");
+}
+
+.services__serviceCard_thirteen-img {
+    background-image: url("../../Images/endocr.svg");
+}

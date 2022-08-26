@@ -1,0 +1,16 @@
+.serviceCard {
+    width: 23%;
+    margin: 1em;
+    border-radius: 1em;
+    background-color:  #FFFEFE;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+.serviceCard__therapy {
+    width: 110px;
+    height: 110px;
+}
+

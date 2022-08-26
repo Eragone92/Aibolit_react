@@ -1,0 +1,39 @@
+.insta { 
+    background-image: url("../../Images/inst.svg");
+    background-position: center center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.fb { 
+    background-image: url("../../Images/fb.svg");
+    background-position: center center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.vk { 
+    background-image: url("../../Images/vk.svg");
+    background-position: center center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.youtube { 
+    background-image: url("../../Images/youtube.svg");
+    background-position: center center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.vidgets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}

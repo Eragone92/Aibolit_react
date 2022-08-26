@@ -1,0 +1,101 @@
+.benefits__content-img-one {
+    background-image: url("../../Images/CombinedShape.svg");
+    width: 88px;
+    height: 69px;
+}
+
+.benefits__content-img-two {
+    background-image: url("../../Images/Group.svg");
+    width: 80px;
+    height: 94.3px;
+}
+
+.benefits__content-img-three {
+    background-image: url("../../Images/hand.svg");
+    width: 79px;
+    height: 99px;
+}
+
+.benefits__content-img-four {
+    background-image: url("../../Images/flask-outline.svg");
+    width: 53px;
+    height: 63px;
+} 
+
+.benefits__content-img-five {
+    background-image: url("../../Images/real-estate.svg");
+    width: 77px;
+    height: 65px;
+}
+
+.benefits__content-img-six {
+    background-image: url("../../Images/microscop.svg");
+    width: 50px;
+    height: 73px;
+}
+
+.benefits__content-img-eight {
+    background-image: url("../../Images/tablet.svg");
+    width: 77px;
+    height: 77px;
+}
+
+.benefits__content-img-nine {
+    background-image: url("../../Images/Shape.svg");
+    width: 77px;
+    height: 77px;
+}
+
+.benefits__content-img-seven {
+    width: 50px;
+    height: 73px;
+}
+
+.img_style {
+    background-position: center ;
+    background-repeat: no-repeat;
+    margin: 0.5em;
+}
+
+.benefits__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.benefits {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 3em;
+    height: auto;
+
+}
+
+.benefit {
+    width: 400px;
+    /* height: 200px; */
+    height: auto;
+    margin: 30px;
+
+}
+
+.benefits__content-text {
+    width: 250px;
+    height: 150px;
+    color: #59443F;
+    font-size: 17px;
+}
+
+.benefits__header {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+

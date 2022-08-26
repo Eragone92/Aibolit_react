@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5em;
+    padding: 0 1em 0 1em;
+    box-sizing:border-box;
+    height: auto;
+}
+
+.header__map {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__map_text {
+    color: #FFC59E;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.header__map_text::before {
+    content: url("../../Images/dot.svg");
+    vertical-align: middle;
+}

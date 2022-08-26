@@ -1,0 +1,65 @@
+.contacts{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10%;
+    width: 100%;
+}
+
+.contacts__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.contacts__right_one h3, .contacts__right_two h3 {
+    font-size: 26px;
+    font-weight: 400;
+    width: 450px;
+    margin: 0 0 20px 0;
+}
+
+.contacts__left-img {
+    width: 100%;
+    /* height: 500px; */
+    height: auto;
+}
+
+.contacts__right_one-list, .contacts__right_two-list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contacts__right_one-list li, .contacts__right_two-list li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contacts__right_one {
+    margin-bottom: 40px;
+}
+
+.contacts__right_one-list, .contacts__right_two-list {
+    width: 300px;
+}
+
+.contacts__right_one-list li:nth-child(1):before, .contacts__right_two-list li:nth-child(1):before {
+    content: url("./../../Images/ic_location.svg");
+}
+
+.contacts__right_one-list li:nth-child(2):before, .contacts__right_two-list li:nth-child(2):before {
+    content: url("./../../Images/ic_phone.svg");
+}
+
+.contacts__right_one-list li:nth-child(3):before, .contacts__right_two-list li:nth-child(3):before {
+    content: url("./../../Images/ic_clock.svg");
+}

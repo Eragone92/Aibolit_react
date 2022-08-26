@@ -1,0 +1,58 @@
+
+
+@media all and (max-width: 950px) {
+    .header {
+        /* flex-direction: column!important;
+        align-items: center!important; */
+        font-size: 10px;
+    }
+    .footer .footer__rightSide-img {
+        display: none;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .header {
+        flex-direction: column!important;
+        align-items: center!important;
+    }
+    .header__menu {
+        flex-direction: column!important;
+     }
+     .header__menu li{
+        margin: 10px;
+     }
+
+     .footer__rightSide_socials {
+        display: none!important;
+     }
+    .footer__rightSide_info {
+        display: none;
+    }
+    .mobileVersion__rightSide-dog {
+        display: none;
+    }
+    .contacts__left-img {
+        display: none;
+    }
+    .animals__image {
+        display: none;
+    }
+    .animals__main_text {
+        font-size: 50px!important;
+        text-align: center!important;
+    }
+    .animals__text {
+        font-size: 18px!important;
+        text-align: center!important;
+    }
+    .animals {
+        height: auto!important;
+    }
+    .caruselka {
+        display: none!important;
+    }
+    .footer__rightSide p {
+        display: none!important;
+    }
+}

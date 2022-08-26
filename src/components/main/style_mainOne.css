@@ -1,0 +1,9 @@
+.mainOne {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* height: 450px; */
+    height: auto;
+    margin-bottom: 2em;
+}

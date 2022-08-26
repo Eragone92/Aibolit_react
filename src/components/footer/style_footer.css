@@ -1,0 +1,136 @@
+.footer__logo {
+    width: 80px;
+    height: 80px;
+}
+
+.footer {
+    background-color: #59443F;
+    width: 100%;
+    /* height: 350px; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 40px; 
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.footer__one_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FFFFFF;
+}
+
+.footer__one_text h3 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer__one_text p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer__one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.footer__two ul li {
+    list-style: none;
+}
+
+.footer__two ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__two p {
+    color: white;
+    width: 190px;
+}
+
+.footer__two {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 560px;
+    margin-left: auto;
+   
+}
+
+.footer__leftSide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 670px;  
+}
+
+.footer__rightSide-img {
+    width: 300px;
+    height: 50px;
+}
+
+
+
+.footer__rightSide_socials li {
+    list-style: none;
+}
+
+.footer__rightSide_socials li:nth-child(1){
+    background-image: url("../../Images/inst.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.footer__rightSide_socials li:nth-child(2){
+    background-image: url("../../Images/fb.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.footer__rightSide_socials li:nth-child(3){
+    background-image: url("../../Images/vk.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.footer__rightSide_socials li:nth-child(4){
+    background-image: url("../../Images/youtube.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.footer__rightSide_socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.footer__rightSide_info {
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+.footer__rightSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__rightSide p {
+    color: white;
+    margin-top: 40px;
+}

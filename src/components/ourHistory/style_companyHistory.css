@@ -1,0 +1,123 @@
+.companyHistory {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FBF8F8;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.companyHistory h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.companyHistory p {
+    font-weight: 400;
+    width: 449px;
+    line-height: 30px;
+    color: #59443F;
+    margin-bottom: 2em;
+    font-size: 20px;
+    /* margin-left: 2em; */
+}
+
+.companyHistory__button {
+    color: #FFC59E;
+    background-color: #FBF8F8;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+.companyHistory__button::after {
+    content: url("../../Images/Path.svg");
+    margin-left: 1em;
+}
+
+.slide_item {
+    width: 100px;
+    height: 100px;
+}
+
+.slide_item + .slide_item{
+   margin-left: 15px;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    /* flex-wrap: wrap;  */
+    /* width: 950px; */
+    /* margin-left: 3em; */
+    box-sizing: border-box;
+
+}  
+
+.carousel {
+   height: 150px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+} 
+
+.carousel .carousel-control-next-icon {
+    background-image: url("../../Images/next.svg");
+    transform: rotate(180deg);
+    /* bottom: 140px */
+   
+}
+
+.carousel .carousel-control-prev-icon {
+    background-image: url("../../Images/prev.svg");
+    align-self: flex-start;
+    /* bottom: 100px; */
+    left: -750px
+   
+}
+
+ .carousel .carousel-control-prev-icon,
+ .carousel .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    display: block;
+    position: relative;
+    background-image: url("../../Images/prev.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.carousel .visually-hidden {
+    display: none;
+}
+
+.carousel-indicators button {
+    display: none;
+}
+
+.marg {
+    margin-bottom: 1em;
+}  
+
+.carousel-inner {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.carousel-slide {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 700px; */
+}
+
+

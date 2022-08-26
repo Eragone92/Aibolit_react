@@ -1,0 +1,19 @@
+.header__menu {
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.header__menu  li{
+    list-style: none;
+}
+
+.header__menu  li a {
+    text-decoration: none;
+    color: #C3B9B5;
+    font-size: 1em;
+    font-weight: 700;
+}
